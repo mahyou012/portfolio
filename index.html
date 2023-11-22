@@ -1,123 +1,99 @@
-<!DOCTYPE html> <html>
+<!DOCTYPE html>
+<html lang="fr">
 
 <head>
-
-<title>Menu responsive déroulant HTML / CSS</title>
-
-<meta charset="utf-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="style.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu responsive déroulant HTML / CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <nav>
+        <label for="menu-mobile" class="menu-mobile">Menu</label>
+        <input type="checkbox" id="menu-mobile" role="button">
 
-<nav>
+        <ul>
+            <li class="menu-html">
+                <a href="#">HTML</a>
+                <ul class="submenu">
+                    <li><a href="https://mahyou012.github.io/projet/page_accueil.html">Cours HTML et CSS</a></li>
+                    <li><a href="https://mahyou012.github.io/projet/page2.html">Eléments HTML</a></li>
+                    <li><a href="#">Attributs HTML</a></li>
+                </ul>
+            </li>
 
-<label for="menu-mobile" class="menu-mobile">Menu</label> <input type="checkbox" id="menu-mobile" role="button">
+            <li class="menu-css">
+                <a href="#">CSS</a>
+                <ul class="submenu">
+                    <li><a href="#">Cours HTML et CSS</a></li>
+                    <li><a href="#">Propriétés CSS</a></li>
+                    <li><a href="#">Sélecteurs CSS</a></li>
+                    <li><a href="#">Exercices</a></li>
+                    <li><a href="#">Exercice</a></li>
+                </ul>
+            </li>
 
-<ul>
+            <li class="menu-js">
+                <a href="#">JavaScript</a>
+                <ul class="submenu">
+                    <li><a href="https://mahyou012.github.io/tp7/">Calculatrice</a></li>
+                    <li><a href="https://mahyou012.github.io/facture1/">Facture</a></li>
+                    <li><a href="https://mahyou012.github.io/tp8/">Bouton JavaScript</a></li>
+                    <li><a href="https://mahyou012.github.io/tp8.1/">Tableau</a></li>
+                </ul>
+            </li>
 
-<li class="menu-html"><a href="#">HTML</a>
+            <li class="menu-mission">
+                <a href="#">Mission</a>
+                <ul class="submenu">
+                    <li><a href="https://mahyou012.github.io/mission1/">Mission 1</a></li>
+                    <li><a href="https://mahyou012.github.io/mahamoud2/">Mission 2</a></li>
+                    <li><a href="https://mahyou012.github.io/maha3/">Mission 3</a></li>
+                    <li><a href="https://mahyou012.github.io/cv/">Mission 4</a></li>
+                    <li><a href="#">Mission 5</a></li>
+                    <li><a href="https://mahyou012.github.io/tp-7/">Mission 7</a></li>
+                    <li><a href="#">Mission 8</a></li>
+                    <li><a href="#">Mission 9</a></li>
+                </ul>
+            </li>
 
-<ul class="submenu">
+            <li class="menu-Certifications">
+                <a href="#">Certifications</a>
+                <ul class="submenu">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </li>
 
-<li><a href="https://mahyou012.github.io/projet/page_accueil.html">Cours HTML et CSS</a></li> 
-<li><a href="https://mahyou012.github.io/projet/page2.html">Eléments HTML</a></li>
-<li><a href="">Attributs HTML</a></li>
+            <li class="menu-css">
+                <a href="#">TP</a>
+                <ul class="submenu">
+                    <li><a href="#">TP4</a></li>
+                    <li><a href="https://mahyou012.github.io/mahamoud4/">TP4.2</a></li>
+                    <li><a href="https://mahyou012.github.io/javasript/">TP6.2</a></li>
+                    <li><a href="https://mahyou012.github.io/bootstrap/">TP6.1</a></li>
+                </ul>
+            </li>
 
-</ul>
+            <li class="menu-css">
+                <a href="#">PHP</a>
+                <ul class="submenu">
+                    <!-- Ajoutez des liens PHP si nécessaire -->
+                </ul>
+            </li>
 
-</li> <li class="menu-css"> <a href="#">CSS</a>
-
-<ul class="submenu">
-
-<li><a href="#">Cours HTML et CSS</a></li> 
-
-<li><a href="#">Propriétés CSS</a></li>
-
-<li><a href="#">Sélecteurs CSS</a></li>
-
-<li><a href="#">Exercices</a></li>
-
-<li><a href="#">Exercicce</a></li>
-
-</ul>
-
-</li> <li class="menu-js"><a href="#">JavaScript</a>
-
-<ul class="submenu">
-
-<li><a href="https://mahyou012.github.io/tp7/">calculatrice</a></li>
-
-<li><a href="https://mahyou012.github.io/facture1/">facture</a></li> 
-
-<li><a href="https://mahyou012.github.io/tp8/">bouton java sript</a></li>
-<li><a href="https://mahyou012.github.io/tp8.1/">tableau</a></li>
-  
-
-
-</ul>
-
-</li> <li class="menu-mission"> <a href="#">mission</a>
-
-<ul class="submenu">
-
-<li><a href="https://mahyou012.github.io/mission1/">mission 1</a></li> 
-
-<li><a href="https://mahyou012.github.io/mahamoud2/">mission 2</a></li>
-
-<li><a href="https://mahyou012.github.io/maha3/">mission 3</a></li>
-
-<li><a href="https://mahyou012.github.io/cv/">mission 4</a></li>
-
-<li><a href="#">mission 5</a></li>
-<li><a href="https://mahyou012.github.io/tp-7/">mission 7</a></li>
-<li><a href="#">mission 8</a></li>
-<li><a href="#">mission 9</a></li>
-  
-</ul>
-
-</li> <li class="menu-Certifications"> <a href="#">Certifications</a>
-
-<ul class="submenu">
-
-<li><a href="#"></a></li> 
-<li><a href="#"></a></li>
-
-<li><a href="#"></a></li>
-
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-</li> <li class="menu-css"> <a href="#">TP</a>
-
-<ul class="submenu">
-
-<li><a href="#">tp4</a></li> 
-
-<li><a href="https://mahyou012.github.io/mahamoud4/">tp4.2</a></li>
-
-<li><a href="https://mahyou012.github.io/javasript/">tp6.2</a></li>
-
-<li><a href="https://mahyou012.github.io/bootstrap/">tp6.1</a></li>
-
-
-
-
-
-</ul>
-</li> <li class="menu-css"> <a href="#">PHP</a>
-
-<ul class="submenu">
-</ul>
-
-</li> <li class="menu-css"> <a href="#">Bases de données</a>
-
-<ul class="submenu">
-</ul>
-  
-</nav>
-
+            <li class="menu-css">
+                <a href="#">Bases de données</a>
+                <ul class="submenu">
+                    <!-- Ajoutez des liens de bases de données si nécessaire -->
+                </ul>
+            </li>
+        </ul>
+    </nav>
 </body>
 
 </html>
